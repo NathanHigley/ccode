@@ -1,13 +1,9 @@
-// hello.c
-// compile gcc hello.c -o hello.o
-// run ./hello.o
-
+// compile gcc hello.c -o hello.exe -lm
+// run ./hello.exe
 #include <stdio.h>
-
-int main(){
-  printf("Hello, World!\n");
-  printf("  d  u     d         e\n");
-  printf("        m    a       n\n");
-  printf("    d      u    d    e\n");
+#include <math.h>
+float main(){
+  printf("HELLO WORLD " );
+  printf("Value 2.0 ^ 8 = %lf\n", pow(2.0, 8));
   return 0;
 }
